@@ -35,6 +35,10 @@ Run the following command in PowerShell to add Zig to the user `PATH`:
 
 If you wish to apply this system-wide, run the command in an elevated prompt, and replace the two `"User"` strings with `"Machine"`.
 
+## Zigup
+
+Zigup is a tool to manage Zig compilers, allowing you to download, update, and switch between versions of Zig. You can find it, along with instructions on how to use it [here](https://github.com/marler8997/zigup).
+
 ## Package Managers
 
 Many package managers provide a Zig package. A list is available [here](https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager). Presently, it is not recommended to use this, as packages may lag behind tagged releases, and will certainly not provide the latest `master` builds (or any at all, for that matter).
