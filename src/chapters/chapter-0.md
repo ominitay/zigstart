@@ -11,7 +11,7 @@ Welcome! Before you embark on your journey, you will need to download and set up
 
 ## Binary Download
 
-From [ziglang.org](https://ziglang.org/download/), download the appropriate build of Zig from below the **master** subheading. You can then extract it into a directory, and add the directory to your `PATH` environment variable. 
+From [ziglang.org](https://ziglang.org/download/), download the appropriate build of Zig from below the `master` subheading. You can then extract it into a directory, and add the directory to your `PATH` environment variable. 
 
 ### Linux, MacOS, and *BSD
 
@@ -23,7 +23,7 @@ export PATH=$PATH:$HOME/path/to/zig
 
 ### Windows
 
-Run the following command in `PowerShell` to add Zig to user `PATH`:
+Run the following command in PowerShell to add Zig to the user `PATH`:
 
 ```powershell
 [Environment]::SetEnvironmentVariable(
@@ -37,7 +37,7 @@ If you wish to apply this system-wide, run the command in an elevated prompt, an
 
 ## Package Managers
 
-Many package managers provide a Zig package. A list is available (here)[https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager]. Presently, it is not recommended to use this, as packages may lag behind tagged releases, and will certainly not provide the latest `master` builds (or any at all, for that matter).
+Many package managers provide a Zig package. A list is available [here](https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager). Presently, it is not recommended to use this, as packages may lag behind tagged releases, and will certainly not provide the latest `master` builds (or any at all, for that matter).
 
 ## Text Editors
 
